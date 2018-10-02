@@ -1,4 +1,4 @@
-class FoundationPile(val suitL: String) {
+class FoundationPile(val suit: String) {
     val cards: MutableList<Card> = mutableListOf()
 
     fun reset() {
